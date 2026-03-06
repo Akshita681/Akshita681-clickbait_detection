@@ -35,38 +35,7 @@ Logistic Regression
 
 Joblib / Pickle
 
-📂 Project Structure
-clickbait-detection/
-│
-├── train_model.py        # Train ML model
-├── predictor.py          # Predict clickbait from headline
-├── model.pkl             # Saved trained model
-├── vectorizer.pkl        # Saved TF-IDF vectorizer
-├── requirements.txt      # Project dependencies
-├── clickbait_data.csv    # Dataset
-└── README.md             # Project documentation
-⚙ Installation
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/clickbait-detection.git
-cd clickbait-detection
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-🧠 Train the Model
 
-Run the training script to train the machine learning model.
-
-python train_model.py
-
-This will:
-
-Train the model
-
-Calculate accuracy
-
-Save the trained model as:
-
-model.pkl
-vectorizer.pkl
 🔎 Run Clickbait Prediction
 
 Run the prediction script:
